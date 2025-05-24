@@ -1770,18 +1770,47 @@ dbl (7): PassengerId, Survived, Pclass, Age, SibSp, Parch, Fare
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucHJvZChkaW0oZGYpKVxuXG5gYGAifQ== -->
-<pre class="r"><code>prod(dim(df))
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubnJvdyhkZilcbnByb2QoZGltKGRmKSlcbmBgYCJ9 -->
+<pre class="r"><code>nrow(df)
+prod(dim(df))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShkcGx5cilcbmxpYnJhcnkodGlkeXIpXG5kZiA8LSBkZiAlPiUgZHJvcF9uYSgpXG5gYGAifQ== -->
+<pre class="r"><code>library(dplyr)
+library(tidyr)
+df &lt;- df %&gt;% drop_na()</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoZGYkUGFzc2VuZ2VySWQpXG5cbmBgYCJ9 -->
+<pre class="r"><code>table(df$PassengerId)
 </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDEwNjkyXG4ifQ== -->
-<pre><code>[1] 10692</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiXG4gIDIgICA0ICAgNyAgMTEgIDEyICAyMiAgMjQgIDI4ICA1MyAgNTUgIDYzICA2NyAgNzYgIDg5ICA5MyAgOTcgIDk4IDEwMyAxMTEgMTE5IDEyNCAxMjUgMTM3IDEzOCAxNDAgMTQ5IDE1MiAxNzEgMTc1IDE3OCAxODQgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG4xOTQgMTk1IDE5NiAyMDYgMjEwIDIxNiAyMTkgMjI1IDIzMSAyNDYgMjQ5IDI1MiAyNTMgMjU4IDI2MyAyNjQgMjY5IDI3MCAyNzQgMjc2IDI5MiAyOTMgMjk4IDMwMCAzMDYgMzA4IDMxMCAzMTEgMzEyIDMxOSAzMjAgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG4zMjYgMzI4IDMzMCAzMzIgMzMzIDMzNyAzMzggMzQwIDM0MSAzNDIgMzQ2IDM1NyAzNjcgMzcwIDM3MSAzNzggMzkxIDM5NCAzOTUgNDEzIDQzMCA0MzEgNDM1IDQzNiA0MzkgNDQ2IDQ1MCA0NTMgNDU0IDQ1NyA0NjEgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG40NjMgNDc0IDQ4NSA0ODcgNDg4IDQ5MyA0OTcgNDk5IDUwNSA1MDYgNTEzIDUxNiA1MTcgNTIxIDUyNCA1MzcgNTQwIDU0MSA1NDUgNTUxIDU1NyA1NTkgNTcyIDU3MyA1NzggNTgyIDU4NCA1ODYgNTg4IDU5MiA2MDAgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG42MTAgNjE5IDYyMiA2MjYgNjI4IDYzMSA2MzMgNjQyIDY0NiA2NDggNjYwIDY2MyA2NzIgNjgwIDY4MiA2OTAgNjkxIDY5OSA3MDAgNzAxIDcwMiA3MDggNzExIDcxMyA3MTYgNzE3IDcxOCA3MjUgNzMxIDczOCA3NDIgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG43NDMgNzQ2IDc0OSA3NTIgNzYwIDc2NCA3NjYgNzczIDc4MCA3ODIgNzgzIDc5MCA3OTcgODAzIDgwNyA4MTAgODIxIDgyNCA4MzYgODU0IDg1OCA4NjMgODY4IDg3MiA4NzMgODgwIDg4OCA4OTAgXG4gIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgICAxICAgMSAgIDEgXG4ifQ== -->
+<pre><code>
+  2   4   7  11  12  22  24  28  53  55  63  67  76  89  93  97  98 103 111 119 124 125 137 138 140 149 152 171 175 178 184 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 
+194 195 196 206 210 216 219 225 231 246 249 252 253 258 263 264 269 270 274 276 292 293 298 300 306 308 310 311 312 319 320 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 
+326 328 330 332 333 337 338 340 341 342 346 357 367 370 371 378 391 394 395 413 430 431 435 436 439 446 450 453 454 457 461 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 
+463 474 485 487 488 493 497 499 505 506 513 516 517 521 524 537 540 541 545 551 557 559 572 573 578 582 584 586 588 592 600 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 
+610 619 622 626 628 631 633 642 646 648 660 663 672 680 682 690 691 699 700 701 702 708 711 713 716 717 718 725 731 738 742 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 
+743 746 749 752 760 764 766 773 780 782 783 790 797 803 807 810 821 824 836 854 858 863 868 872 873 880 888 890 
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1 </code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBQcmFjdGljZSIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCmBgYHtyfQpsaWJyYXJ5KHJlYWRyKQpkZiA8LSByZWFkX2NzdigiL1VzZXJzL3Rob21hc3NpbW1vbnMvRG93bmxvYWRzL3RpdGFuaWMuY3N2IikKYGBgCmBgYHtyfQpucm93KGRmKQpwcm9kKGRpbShkZikpCmBgYAoKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBQcmFjdGljZSIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCmBgYHtyfQpsaWJyYXJ5KHJlYWRyKQpkZiA8LSByZWFkX2NzdigiL1VzZXJzL3Rob21hc3NpbW1vbnMvRG93bmxvYWRzL3RpdGFuaWMuY3N2IikKYGBgCmBgYHtyfQpucm93KGRmKQpwcm9kKGRpbShkZikpCmBgYAoKCmBgYHtyfQpsaWJyYXJ5KGRwbHlyKQpsaWJyYXJ5KHRpZHlyKQpkZiA8LSBkZiAlPiUgZHJvcF9uYSgpCmBgYAoKYGBge3J9CnN1bW1hcnkoZGYpCnRhYmxlKGRmJFBhc3NlbmdlcklkKQpgYGAKCg==</div>
 
 
 
