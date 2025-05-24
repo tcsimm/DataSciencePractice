@@ -1,0 +1,16 @@
+---
+title: "R Practice"
+output: html_notebook
+---
+
+
+```{r}
+library(readr)
+df <- read_csv("/Users/thomassimmons/Downloads/titanic.csv")
+```
+```{r}
+nrow(df)
+prod(dim(df))
+```
+
+
