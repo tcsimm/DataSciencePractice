@@ -92,6 +92,10 @@ ggplot(df, aes(x=Fare)) +
 df2 <- data.frame(name = c("Alice", "Bob"), age = c(25, 30))
 df2
 ```
+```{r}
+colnames(df2)
+names(df2)
+```
 
 
 
