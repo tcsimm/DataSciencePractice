@@ -82,6 +82,17 @@ ggplot(df, aes(x=Age)) +
   geom_histogram(binwidth = 5, fill = "skyblue", color = "black")
 ```
 
+```{r}
+colnames(df)
+ggplot(df, aes(x=Fare)) +
+  geom_histogram(binwidth = 6, fill = "red", color = "white")
+```
+
+```{r}
+df2 <- data.frame(name = c("Alice", "Bob"), age = c(25, 30))
+df2
+```
+
 
 
 
