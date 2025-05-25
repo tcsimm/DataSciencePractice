@@ -14,3 +14,81 @@ prod(dim(df))
 ```
 
 
+```{r}
+library(dplyr)
+library(tidyr)
+df <- df %>% drop_na()
+```
+
+```{r}
+summary(df)
+table(df$PassengerId)
+```
+
+```{r}
+dim(df)
+```
+
+```{r}
+sum(dim(df))
+prod(dim(df))
+```
+
+```{r}
+x <- c(1,2,3,4)
+x
+sum(x)
+prod(x)
+```
+
+
+```{r}
+prod(c(3,4))
+```
+
+```{r}
+head(df)
+str(df)
+summary(df)
+```
+
+
+```{r}
+# Colsums - calculates the sum of each column
+colSums(is.na(df))
+```
+```{r}
+df_clean <- na.omit(df)
+```
+
+```{r}
+table(df_clean$Survived)
+```
+
+```{r}
+library(ggplot2)
+plot(df$Fare,
+     xlab = "Passenger Index",
+     ylab = "Fare")
+
+ggplot(df, aes(x=1, n:row(df), y=Fare)) +
+  geom_point() +
+  labs(x = "Passenger Index", y = "Fare ($)")
+```
+
+
+```{r}
+ggplot(df, aes(x=Age)) + 
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black")
+```
+
+
+
+
+
+
+
+
+
+
+
