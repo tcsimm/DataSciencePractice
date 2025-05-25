@@ -97,6 +97,9 @@ colnames(df2)
 names(df2)
 ```
 
+```{r}
+table(df$Survived)
+```
 
 
 
