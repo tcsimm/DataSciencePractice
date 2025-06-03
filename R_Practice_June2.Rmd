@@ -39,9 +39,19 @@ students
 ```
 
 ```{r}
-
+nums <- c(1,2,3,4)
+sum(nums)
 ```
 
+```{r}
+mean(nums)
+length(nums)
+```
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+```
 
 
 
