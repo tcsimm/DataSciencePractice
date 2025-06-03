@@ -30,6 +30,15 @@ my_list <- list(name = "Alice", age=25, scores = c(95, 85, 88))
 my_list
 ```
 ```{r}
+students <- data.frame(
+  name = c("Alice", "Bob"), 
+  age = c(23,24),
+  score = c(89, 92)
+)
+students
+```
+
+```{r}
 
 ```
 
