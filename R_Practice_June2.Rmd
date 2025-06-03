@@ -81,7 +81,19 @@ df <- left_join(state_map, regions.df, by = "region")
 ```
 
 ```{r}
-
+# Create the map
+ggplot(df) +
+  aes(long, lat, group=group) +
+  geom_polygon(aes(fill = rep.region), color = "white") +
+  labs(x = "", y = "",
+       title = "Wine Sales Regions",
+       subtitle = "Which States in Each Region") +
+  theme (
+    axis.text = element_blank(), 
+    axis.ticks = element_blank(),
+    panel.background = element_blank()
+  ) +
+  coord_map("albers", at0 = 45.5, lat1 = 29.5)
 ```
 
 
