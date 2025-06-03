@@ -60,9 +60,13 @@ library(maps)
 ```
 
 ```{r}
-
+# Get map data for US states
+state_map <- map_data("state")
 ```
 
+```{r}
+head(state_map)
+```
 
 
 
