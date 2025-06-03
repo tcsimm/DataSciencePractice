@@ -1,0 +1,50 @@
+---
+title: "Practice June 2"
+output: html_notebook
+---
+
+
+```{r}
+# Number
+x <- 2
+# Text
+name <- "Thomas"
+```
+
+```{r}
+# Boolean
+flag <- TRUE
+```
+
+```{r}
+color <- factor(c("Red", "Blue", "Green"))
+```
+
+```{r}
+names <- c("Alice", "Bob", "Bob2")
+names
+```
+
+```{r}
+my_list <- list(name = "Alice", age=25, scores = c(95, 85, 88))
+my_list
+```
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
