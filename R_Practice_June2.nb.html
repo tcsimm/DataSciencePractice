@@ -1772,6 +1772,9 @@ flag &lt;- TRUE</code></pre>
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY29sb3IgPC0gZmFjdG9yKGMoXCJSZWRcIiwgXCJCbHVlXCIsIFwiR3JlZW5cIikpXG5gYGAifQ== -->
+<pre class="r"><code>color &lt;- factor(c(&quot;Red&quot;, &quot;Blue&quot;, &quot;Green&quot;))</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -1867,10 +1870,22 @@ The downloaded binary packages are in
 <pre class="r"><code>library(ggplot2)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBMb2FkIG5lY2Vzc2FyeSBsaWJyYXJpZXNcbmxpYnJhcnkoZ2dwbG90MilcbmxpYnJhcnkoZHBseXIpXG5saWJyYXJ5KG1hcHMpXG5gYGAifQ== -->
+<pre class="r"><code># Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(maps)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJhY3RpY2UgSnVuZSAyIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgoKYGBge3J9CiMgTnVtYmVyCnggPC0gMgojIFRleHQKbmFtZSA8LSAiVGhvbWFzIgpgYGAKCmBgYHtyfQojIEJvb2xlYW4KZmxhZyA8LSBUUlVFCmBgYAoKYGBge3J9CmNvbG9yIDwtIGZhY3RvcihjKCJSZWQiLCAiQmx1ZSIsICJHcmVlbiIpKQpgYGAKCmBgYHtyfQpuYW1lcyA8LSBjKCJBbGljZSIsICJCb2IiLCAiQm9iMiIpCm5hbWVzCmBgYAoKYGBge3J9Cm15X2xpc3QgPC0gbGlzdChuYW1lID0gIkFsaWNlIiwgYWdlPTI1LCBzY29yZXMgPSBjKDk1LCA4NSwgODgpKQpteV9saXN0CmBgYApgYGB7cn0Kc3R1ZGVudHMgPC0gZGF0YS5mcmFtZSgKICBuYW1lID0gYygiQWxpY2UiLCAiQm9iIiksIAogIGFnZSA9IGMoMjMsMjQpLAogIHNjb3JlID0gYyg4OSwgOTIpCikKc3R1ZGVudHMKYGBgCgpgYGB7cn0KbnVtcyA8LSBjKDEsMiwzLDQpCnN1bShudW1zKQpgYGAKCmBgYHtyfQptZWFuKG51bXMpCmxlbmd0aChudW1zKQpgYGAKCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCJnZ3Bsb3QyIikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKCgoKCgoKCgoKCgoKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJhY3RpY2UgSnVuZSAyIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgoKYGBge3J9CiMgTnVtYmVyCnggPC0gMgojIFRleHQKbmFtZSA8LSAiVGhvbWFzIgpgYGAKCmBgYHtyfQojIEJvb2xlYW4KZmxhZyA8LSBUUlVFCmBgYAoKYGBge3J9CmNvbG9yIDwtIGZhY3RvcihjKCJSZWQiLCAiQmx1ZSIsICJHcmVlbiIpKQpgYGAKCmBgYHtyfQpuYW1lcyA8LSBjKCJBbGljZSIsICJCb2IiLCAiQm9iMiIpCm5hbWVzCmBgYAoKYGBge3J9Cm15X2xpc3QgPC0gbGlzdChuYW1lID0gIkFsaWNlIiwgYWdlPTI1LCBzY29yZXMgPSBjKDk1LCA4NSwgODgpKQpteV9saXN0CmBgYApgYGB7cn0Kc3R1ZGVudHMgPC0gZGF0YS5mcmFtZSgKICBuYW1lID0gYygiQWxpY2UiLCAiQm9iIiksIAogIGFnZSA9IGMoMjMsMjQpLAogIHNjb3JlID0gYyg4OSwgOTIpCikKc3R1ZGVudHMKYGBgCgpgYGB7cn0KbnVtcyA8LSBjKDEsMiwzLDQpCnN1bShudW1zKQpgYGAKCmBgYHtyfQptZWFuKG51bXMpCmxlbmd0aChudW1zKQpgYGAKCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCJnZ3Bsb3QyIikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKYGBge3J9CiMgTG9hZCBuZWNlc3NhcnkgbGlicmFyaWVzCmxpYnJhcnkoZ2dwbG90MikKbGlicmFyeShkcGx5cikKbGlicmFyeShtYXBzKQpgYGAKCmBgYHtyfQoKYGBgCgoKCgoKCgoKCgoKCgoK</div>
 
 
 
