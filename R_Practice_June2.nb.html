@@ -1899,8 +1899,33 @@ state_map &lt;- map_data(&quot;state&quot;)</code></pre>
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVnaW9ucy5kZiA8LSBkYXRhLmZyYW1lKFxuICByZWdpb24gPSBjKFwiY2FsaWZvcm5pYVwiLCBcInRleGFzXCIsIFwibmV3IHlvcmtcIiwgXCJmbG9yaWRhXCIsIFwiaWxsaW5vaXNcIiwgXCJ3YXNoaW5ndG9uXCIpLFxuICByZXAucmVnaW9uID0gYyhcIldlc3RcIiwgXCJTb3V0aFwiLCBcIk5vcnRoZWFzdFwiLCBcIlNvdXRoXCIsIFwiTWlkd2VzdFwiLCBcIldlc3RcIilcbilcbmBgYCJ9 -->
+<pre class="r"><code>regions.df &lt;- data.frame(
+  region = c(&quot;california&quot;, &quot;texas&quot;, &quot;new york&quot;, &quot;florida&quot;, &quot;illinois&quot;, &quot;washington&quot;),
+  rep.region = c(&quot;West&quot;, &quot;South&quot;, &quot;Northeast&quot;, &quot;South&quot;, &quot;Midwest&quot;, &quot;West&quot;)
+)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6NiwibmNvbCI6Miwic3VtbWFyeSI6eyJEZXNjcmlwdGlvbiI6WyJkZiBbNiDDlyAyXSJdfX0sInJkZiI6Ikg0c0lBQUFBQUFBQUEyMVN6VTZFTUJDZTVYY2hXVFhaRi9BRjRLQVhIOEI0MDRNL2NhOFZDalJiTzZRdHN0NTg4dFVDN1NyRUpxUXozOHczMzh5VXg5dmRkYnBMQWNDSHdQZkJENDBKNGN2elhYWURFSGpHV1VFQXlYQWZUTkxXR0FONFliN0lCdEtDY0ZhaEZJeFlKTlQwUUpSMTFvTDJsNThvOTlhUEs0NlNsUzUzelRobkFwbExUM3VpR2lacWpXS2hFN3hTcFozQ0UzYTZzVTd5Z0ZJM2xQd2ZqZTlaMmY4eXB5cnowVUpCM3FteWNwNEZJMGxyWnBxd2JVbmE1aGFaa3hPSmZlNEtiSVlDWHpDZWFLbFNjS0tjaWdQVGttaVNWOUx3alhkY1VHSnN0VkUwSkc4N1ZaeVJWM0lCbkhkaTZLVE1pcVlUKyt4cUVmWmJVUSthSXpTZGpiV2pQN1kzZGVGOUx4NGdvcUptZ3JweE9IbWozRlV1NlljMXo4dyt4blhrcldSQ24vYUh2Y28xYXNKUHZ3MXloNHlUdy9FSCtKNHVSNDRDQUFBPSJ9 -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["region"],"name":[1],"type":["chr"],"align":["left"]},{"label":["rep.region"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"california","2":"West"},{"1":"texas","2":"South"},{"1":"new york","2":"Northeast"},{"1":"florida","2":"South"},{"1":"illinois","2":"Midwest"},{"1":"washington","2":"West"}],"options":{"columns":{"min":{},"max":[10],"total":[2]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJhY3RpY2UgSnVuZSAyIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgoKYGBge3J9CiMgTnVtYmVyCnggPC0gMgojIFRleHQKbmFtZSA8LSAiVGhvbWFzIgpgYGAKCmBgYHtyfQojIEJvb2xlYW4KZmxhZyA8LSBUUlVFCmBgYAoKYGBge3J9CmNvbG9yIDwtIGZhY3RvcihjKCJSZWQiLCAiQmx1ZSIsICJHcmVlbiIpKQpgYGAKCmBgYHtyfQpuYW1lcyA8LSBjKCJBbGljZSIsICJCb2IiLCAiQm9iMiIpCm5hbWVzCmBgYAoKYGBge3J9Cm15X2xpc3QgPC0gbGlzdChuYW1lID0gIkFsaWNlIiwgYWdlPTI1LCBzY29yZXMgPSBjKDk1LCA4NSwgODgpKQpteV9saXN0CmBgYApgYGB7cn0Kc3R1ZGVudHMgPC0gZGF0YS5mcmFtZSgKICBuYW1lID0gYygiQWxpY2UiLCAiQm9iIiksIAogIGFnZSA9IGMoMjMsMjQpLAogIHNjb3JlID0gYyg4OSwgOTIpCikKc3R1ZGVudHMKYGBgCgpgYGB7cn0KbnVtcyA8LSBjKDEsMiwzLDQpCnN1bShudW1zKQpgYGAKCmBgYHtyfQptZWFuKG51bXMpCmxlbmd0aChudW1zKQpgYGAKCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCJnZ3Bsb3QyIikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKYGBge3J9CiMgTG9hZCBuZWNlc3NhcnkgbGlicmFyaWVzCmxpYnJhcnkoZ2dwbG90MikKbGlicmFyeShkcGx5cikKbGlicmFyeShtYXBzKQpgYGAKCmBgYHtyfQojIEdldCBtYXAgZGF0YSBmb3IgVVMgc3RhdGVzCnN0YXRlX21hcCA8LSBtYXBfZGF0YSgic3RhdGUiKQpgYGAKCmBgYHtyfQpoZWFkKHN0YXRlX21hcCkKYGBgCgoKCgoKCgoKCgoKCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJhY3RpY2UgSnVuZSAyIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgoKYGBge3J9CiMgTnVtYmVyCnggPC0gMgojIFRleHQKbmFtZSA8LSAiVGhvbWFzIgpgYGAKCmBgYHtyfQojIEJvb2xlYW4KZmxhZyA8LSBUUlVFCmBgYAoKYGBge3J9CmNvbG9yIDwtIGZhY3RvcihjKCJSZWQiLCAiQmx1ZSIsICJHcmVlbiIpKQpgYGAKCmBgYHtyfQpuYW1lcyA8LSBjKCJBbGljZSIsICJCb2IiLCAiQm9iMiIpCm5hbWVzCmBgYAoKYGBge3J9Cm15X2xpc3QgPC0gbGlzdChuYW1lID0gIkFsaWNlIiwgYWdlPTI1LCBzY29yZXMgPSBjKDk1LCA4NSwgODgpKQpteV9saXN0CmBgYApgYGB7cn0Kc3R1ZGVudHMgPC0gZGF0YS5mcmFtZSgKICBuYW1lID0gYygiQWxpY2UiLCAiQm9iIiksIAogIGFnZSA9IGMoMjMsMjQpLAogIHNjb3JlID0gYyg4OSwgOTIpCikKc3R1ZGVudHMKYGBgCgpgYGB7cn0KbnVtcyA8LSBjKDEsMiwzLDQpCnN1bShudW1zKQpgYGAKCmBgYHtyfQptZWFuKG51bXMpCmxlbmd0aChudW1zKQpgYGAKCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCJnZ3Bsb3QyIikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKYGBge3J9CiMgTG9hZCBuZWNlc3NhcnkgbGlicmFyaWVzCmxpYnJhcnkoZ2dwbG90MikKbGlicmFyeShkcGx5cikKbGlicmFyeShtYXBzKQpgYGAKCmBgYHtyfQojIEdldCBtYXAgZGF0YSBmb3IgVVMgc3RhdGVzCnN0YXRlX21hcCA8LSBtYXBfZGF0YSgic3RhdGUiKQpgYGAKCmBgYHtyfQpoZWFkKHN0YXRlX21hcCkKYGBgCgpgYGB7cn0KcmVnaW9ucy5kZiA8LSBkYXRhLmZyYW1lKAogIHJlZ2lvbiA9IGMoImNhbGlmb3JuaWEiLCAidGV4YXMiLCAibmV3IHlvcmsiLCAiZmxvcmlkYSIsICJpbGxpbm9pcyIsICJ3YXNoaW5ndG9uIiksCiAgcmVwLnJlZ2lvbiA9IGMoIldlc3QiLCAiU291dGgiLCAiTm9ydGhlYXN0IiwgIlNvdXRoIiwgIk1pZHdlc3QiLCAiV2VzdCIpCikKYGBgCgpgYGB7cn0KIyBqb2luIHN0YXRlIG1hcCB3aXRoIHJlZ2lvbnMKZGYgPC0gbGVmdF9qb2luKHN0YXRlX21hcCwgcmVnaW9ucy5kZiwgYnkgPSAicmVnaW9uIikKYGBgCgpgYGB7cn0KCmBgYAoKCgoKCgoKCgoK</div>
 
 
 

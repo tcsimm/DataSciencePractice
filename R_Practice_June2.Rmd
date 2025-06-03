@@ -68,8 +68,21 @@ state_map <- map_data("state")
 head(state_map)
 ```
 
+```{r}
+regions.df <- data.frame(
+  region = c("california", "texas", "new york", "florida", "illinois", "washington"),
+  rep.region = c("West", "South", "Northeast", "South", "Midwest", "West")
+)
+```
 
+```{r}
+# join state map with regions
+df <- left_join(state_map, regions.df, by = "region")
+```
 
+```{r}
+
+```
 
 
 
