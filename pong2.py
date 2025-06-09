@@ -8,7 +8,7 @@ t = turtle.Turtle()
 
 # Screen setup
 
-win = Turtle.screen() # Creates a window or screen using Turtle
+win = turtle.screen() # Creates a window or screen using Turtle
 
 # Sets the title to Pong
 win.title("Pong")
