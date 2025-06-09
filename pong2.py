@@ -9,6 +9,8 @@ t = turtle.Turtle()
 # Screen setup
 
 win = Turtle.screen() # Creates a window or screen using Turtle
+
+# Sets the title to Pong
 win.title("Pong")
 win.bgcolor("Black")
 win.setup(width = 800, height = 600)
