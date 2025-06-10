@@ -84,3 +84,8 @@ while True:
     if ball.xcor() < -390:
         ball.goto(0,0)
         ball.dx *= -1
+        
+    # Paddle collision
+    if (340 < ball.xcor() < 350) and (right_pad.ycor() - 50 < ball.ycor() < right_pad.ycor() + 50):
+        ball.setx(340)
+        ball.dx *= -1
