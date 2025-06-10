@@ -34,3 +34,9 @@ ball.penup()
 ball.goto(0,0)
 ball.dx = 0.175
 ball.dy = 0.175
+
+# Paddle movement
+def left_up():
+    y = left_pad.ycor()
+    if y < 250:
+        left_pad.sety(y + 20)
