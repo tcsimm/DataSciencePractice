@@ -18,3 +18,6 @@ left_pad.goto(-350, 0 )
 
 # Right paddle
 right_pad = turtle.Turtle()
+right_pad.speed(0)
+right_pad.shape("square")
+right_pad.color("white")
