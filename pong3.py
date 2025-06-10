@@ -1,7 +1,6 @@
 import turtle
 
-win = turtle.screen()
-
+win = turtle.Screen()
 win.title("Pong")
 win.bgcolor("Black")
 win.setup(width = 800, height=600)
