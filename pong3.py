@@ -89,3 +89,7 @@ while True:
     if (340 < ball.xcor() < 350) and (right_pad.ycor() - 50 < ball.ycor() < right_pad.ycor() + 50):
         ball.setx(340)
         ball.dx *= -1
+        
+    if (-350 < ball.xcor() < -340) and (left_pad.ycor() - 50 < ball.ycor() < left_pad.ycor() + 50):
+        ball.setx(-340)
+        ball.dx *= -1
