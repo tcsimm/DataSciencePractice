@@ -74,3 +74,8 @@ while True:
     # Top and bottom wall bounce
     if ball.ycor() > 290 or ball.ycor() < -290:
         ball.dy *= -1
+        
+    # Right wall bounce
+    if ball.xcor() > 390:
+        ball.goto(0,0)
+        ball.dx *= -1
