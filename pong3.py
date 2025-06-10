@@ -70,3 +70,7 @@ while True:
     # Move ball
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
+    
+    # Top and bottom wall bounce
+    if ball.ycor() > 290 or ball.ycor() < -290:
+        ball.dy *= -1
