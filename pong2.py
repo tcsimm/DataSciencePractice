@@ -19,4 +19,5 @@ win.bgcolor("Black")
 # Sets dimensions as 800 by 600
 win.setup(width = 800, height = 600)
 
+# Disable automatic screen updates
 win.tracer(0)
