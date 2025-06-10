@@ -15,3 +15,6 @@ left_pad.color("white")
 left_pad.shapesize(stretch_wid=6, stretch_len=1)
 left_pad.penup()
 left_pad.goto(-350, 0 )
+
+# Right paddle
+right_pad = turtle.Turtle()
