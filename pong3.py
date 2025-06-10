@@ -24,3 +24,7 @@ right_pad.color("white")
 right_pad.shapesize(stretch_wid=6, stretch_len=1)
 right_pad.penup()
 right_pad.goto(350,0)
+
+# Ball
+ball = turtle.Turtle()
+ball.speed(0)
