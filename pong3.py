@@ -67,4 +67,6 @@ win.onkeypress(right_down, "Down")
 while True:
     win.update()
     
-    
+    # Move ball
+    ball.setx(ball.xcor() + ball.dx)
+    ball.sety(ball.ycor() + ball.dy)
