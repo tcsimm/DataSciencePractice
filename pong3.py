@@ -40,3 +40,8 @@ def left_up():
     y = left_pad.ycor()
     if y < 250:
         left_pad.sety(y + 20)
+        
+def left_down():
+    y = left_oad.ycor()
+    if y > -240:
+        left_pad.sety(y - 20)
