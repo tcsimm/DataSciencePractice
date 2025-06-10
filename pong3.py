@@ -63,3 +63,8 @@ win.onkeypress(left_down, "s")
 win.onkeypress(right_up, "Up")
 win.onkeypress(right_down, "Down")
 
+# Main game loop
+while True:
+    win.update()
+    
+    
