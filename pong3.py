@@ -55,3 +55,11 @@ def right_down():
     y = right_pad.ycor()
     if y > -240:
         right_pad.sety(y - 20)
+        
+# Key bindings
+win.listen()
+win.onkeypress(left_up, "w")
+win.onkeypress(left_down, "s")
+win.onkeypress(right_up, "Up")
+win.onkeypress(right_down, "Down")
+
