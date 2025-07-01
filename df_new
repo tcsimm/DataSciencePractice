@@ -1,4 +1,4 @@
-,trbnsbction_id,customer_id,cbtegory,item,price_per_unit,qubntity,totbl_spent,pbyment_method,locbtion,trbnsbction_dbte,discount_bpplied,month
+,transaction_id,customer_id,category,item,price_per_unit,quantity,total_spent,payment_method,location,transaction_date,discount_applied,month
 0,TXN_6867343,CUST_09,Patisserie,Item_10_PAT,18.5,10.0,185.0,Digital Wallet,Online,2024-04-08,True,2024-04
 1,TXN_3731986,CUST_22,Milk Products,Item_17_MILK,29.0,9.0,261.0,Digital Wallet,Online,2023-07-23,True,2023-07
 2,TXN_9303719,CUST_02,Butchers,Item_12_BUT,21.5,2.0,43.0,Credit Card,Online,2022-10-05,False,2022-10
