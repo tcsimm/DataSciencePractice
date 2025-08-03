@@ -70,6 +70,17 @@ ggplot(new_member_trend, aes(x = month, y = new_members)) +
   theme_minimal()
 ```
 
+```{r}
+# mental health access analysis
+mental_health_plot <- data %>%
+  ggplot(aes(x = mental_health_access)) +
+  geom_bar(fill = "purple") +
+  labs(title = "Distribution of Mental Health Access Ratings",
+       x = "Rating (1-5)", y = "Number of Students") + 
+  theme_minimal()
+
+print(mental_health_plot)
+```
 
 
 
