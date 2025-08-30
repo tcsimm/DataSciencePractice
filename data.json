@@ -1,0 +1,11 @@
+{
+    "name": "Tom Sims",
+    "role": "Data Analyst",
+    "skills": ["SQL", "Python", "Tableau", "R"],
+    "experience": {
+        "company": "Syracuse",
+        "position": "Data Analyst",
+        "years": 2
+    },
+    "active_job_search": true
+}
