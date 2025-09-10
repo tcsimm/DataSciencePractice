@@ -54,3 +54,8 @@ List<Customer> customers = new List<Customer>
 
 // linq query 
 var over35 = customers.Where(c => c.Age > 35)
+
+foreach (var cust in over35)
+{
+    Console.WriteLine(cust.Name);
+}
