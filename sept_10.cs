@@ -26,3 +26,15 @@ using System.Data.SqlClient;
 
 string connectionString = "Server=.;Database=MyDB;Trusted_Connection=True;";
 string query = "SELECT TOP 5 Name, Age FROM Customers";
+
+using (SqlConnection conn = new SqlConnection(connectionString))
+{
+    SqlCommand cmd = new SqlCommand(query, conn);
+    conn.Open();
+
+    SqlDataReader reader = cmd.ExecuteReader();
+    while (reader.Read())
+    {
+        Console.WriteLine(reader["Name"] + " - " + reader["Age"]);
+    }
+}
