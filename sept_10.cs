@@ -45,3 +45,9 @@ public class Customer
     public string Name { get; set; }
     public int Age { get; set; }
 }
+
+List<Customer> customers = new List<Customer>
+{
+    new Customer { Name = "Alice", Age = 30},
+    new Customer { Name = "Bob", Age = 20}
+}
