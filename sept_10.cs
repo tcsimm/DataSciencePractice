@@ -50,4 +50,7 @@ List<Customer> customers = new List<Customer>
 {
     new Customer { Name = "Alice", Age = 30},
     new Customer { Name = "Bob", Age = 20}
-}
+};
+
+// linq query 
+var over35 = customers.Where(c => c.Age > 35)
