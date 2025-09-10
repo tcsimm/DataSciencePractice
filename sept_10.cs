@@ -38,3 +38,5 @@ using (SqlConnection conn = new SqlConnection(connectionString))
         Console.WriteLine(reader["Name"] + " - " + reader["Age"]);
     }
 }
+
+// data mapping
