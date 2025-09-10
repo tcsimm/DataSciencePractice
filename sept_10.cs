@@ -12,5 +12,11 @@ if (age > 25)
 }
 else
 {
-    Console.WriteLine("25 or younger");
+    Console.WriteLine("25 or younger");,
+}
+
+// loop
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
 }
