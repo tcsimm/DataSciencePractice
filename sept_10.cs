@@ -40,3 +40,8 @@ using (SqlConnection conn = new SqlConnection(connectionString))
 }
 
 // data mapping
+public class Customer
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
