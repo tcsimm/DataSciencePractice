@@ -20,3 +20,9 @@ for (int i = 0; i < 5; i++)
 {
     Console.WriteLine(i);
 }
+
+// working with data
+using System.Data.SqlClient;
+
+string connectionString = "Server=.;Database=MyDB;Trusted_Connection=True;";
+string query = "SELECT TOP 5 Name, Age FROM Customers";
