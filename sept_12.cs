@@ -13,3 +13,11 @@ class Program
         Console.WriteLine("Name is" + name);
     }
 }
+
+class Program2
+{
+    static void Main()
+    {
+        int score = 85;
+    }
+}
