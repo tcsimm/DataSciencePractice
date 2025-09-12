@@ -10,5 +10,6 @@ class Program
 
         Console.WriteLine(i); // prints 1 in terminal
         Console.WriteLine("Gpa is" + gpa);
+        Console.WriteLine("Name is" + name);
     }
 }
