@@ -1,0 +1,15 @@
+/Users/thomassimmons/c/d/MyApp/bin/Debug/net9.0/MyApp
+/Users/thomassimmons/c/d/MyApp/bin/Debug/net9.0/MyApp.deps.json
+/Users/thomassimmons/c/d/MyApp/bin/Debug/net9.0/MyApp.runtimeconfig.json
+/Users/thomassimmons/c/d/MyApp/bin/Debug/net9.0/MyApp.dll
+/Users/thomassimmons/c/d/MyApp/bin/Debug/net9.0/MyApp.pdb
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfoInputs.cache
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfo.cs
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.csproj.CoreCompileInputs.cache
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.sourcelink.json
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.dll
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/refint/MyApp.dll
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.pdb
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
+/Users/thomassimmons/c/d/MyApp/obj/Debug/net9.0/ref/MyApp.dll
