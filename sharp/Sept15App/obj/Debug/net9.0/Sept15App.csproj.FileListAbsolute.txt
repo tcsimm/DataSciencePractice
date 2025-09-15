@@ -1,0 +1,15 @@
+/Users/thomassimmons/c/d/sharp/Sept15App/bin/Debug/net9.0/Sept15App
+/Users/thomassimmons/c/d/sharp/Sept15App/bin/Debug/net9.0/Sept15App.deps.json
+/Users/thomassimmons/c/d/sharp/Sept15App/bin/Debug/net9.0/Sept15App.runtimeconfig.json
+/Users/thomassimmons/c/d/sharp/Sept15App/bin/Debug/net9.0/Sept15App.dll
+/Users/thomassimmons/c/d/sharp/Sept15App/bin/Debug/net9.0/Sept15App.pdb
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.AssemblyInfoInputs.cache
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.AssemblyInfo.cs
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.csproj.CoreCompileInputs.cache
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.sourcelink.json
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.dll
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/refint/Sept15App.dll
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.pdb
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/Sept15App.genruntimeconfig.cache
+/Users/thomassimmons/c/d/sharp/Sept15App/obj/Debug/net9.0/ref/Sept15App.dll
