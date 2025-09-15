@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int number = 7;
+        int number = 999;
 
         if (number > 5)
         {
