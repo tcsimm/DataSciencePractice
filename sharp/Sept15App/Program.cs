@@ -4,11 +4,16 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Hello world");
+        int number = 7;
 
-        int age = 24;
-        string name = "thomas";
+        if (number > 5)
+        {
+            Console.WriteLine("that number is greater than 5");
+        }
 
-        Console.WriteLine($"Your name is {name} and your age is {age}.");
+        else
+        [
+            Console.WriteLine("not greater than 5");
+        ]
     }
 }
