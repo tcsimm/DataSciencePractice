@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        int age = 24;
-        double pi = 3.14;
-        string name = "Thomas";
-        bool ok = true;
+        Console.WriteLine("Hello world");
 
-        Console.WriteLine($"Your age is {age}, your name is {name}, your double is {pi}, and your boolean is {ok}");
+        int age = 24;
+        string name = "thomas";
+
+        Console.WriteLine($"Your name is {name} and your age is {age}");
     }
 }
