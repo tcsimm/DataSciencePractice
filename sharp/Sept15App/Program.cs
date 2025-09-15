@@ -12,8 +12,8 @@ class Program
         }
 
         else
-        [
+        {
             Console.WriteLine("not greater than 5");
-        ]
+        }
     }
 }
