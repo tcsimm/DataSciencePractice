@@ -9,6 +9,6 @@ class Program
         int age = 24;
         string name = "thomas";
 
-        Console.WriteLine($"Your name is {name} and your age is {age}");
+        Console.WriteLine($"Your name is {name} and your age is {age}.");
     }
 }
