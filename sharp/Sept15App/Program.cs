@@ -1,19 +1,9 @@
 ﻿using System;
 
-class Program
+class Person
 {
     static void Main()
     {
-        int number = 999;
-
-        if (number > 5)
-        {
-            Console.WriteLine("that number is greater than 5");
-        }
-
-        else
-        {
-            Console.WriteLine("not greater than 5");
-        }
+        Console.WriteLine("More more more");
     }
 }
