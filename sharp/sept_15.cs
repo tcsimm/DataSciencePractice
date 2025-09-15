@@ -13,5 +13,8 @@ class Program
         string who = "Thomas";
         double pi = 3.1415;
         bool ok = True;
+        DateTime now = DateTime.UtcNow;
+
+        Console.WriteLine($"hi {who}, x={x}, pi≈{pi:F2}, ok={ok}, now={now:O}");
     }
 }
