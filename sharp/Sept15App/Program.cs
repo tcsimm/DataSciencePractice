@@ -1,9 +1,9 @@
 ﻿using System;
 
-class Bobby
+class Thomas
 {
     static void Main()
     {
-        Console.WriteLine("Hey there.");
+        Console.WriteLine("Come in, world!");
     }
 }
