@@ -16,8 +16,5 @@ class Thomas
         Console.WriteLine($"Pi value is {pi}");
 
         Console.WriteLine($"Double is {pie}");
-
-
-
     }
 }
