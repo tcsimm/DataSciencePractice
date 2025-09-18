@@ -10,6 +10,6 @@ class Program
         {
             return a + b;
         }
-        Console.WriteLine(Add);
+        Console.WriteLine(Add(3,5));
     }    
 }
