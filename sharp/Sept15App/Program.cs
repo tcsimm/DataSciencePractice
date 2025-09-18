@@ -13,6 +13,6 @@ class Program
         Console.WriteLine($"Your name is {bob}");
 
         bool hi = true;
-        Console.WriteLine($"That is {bhiob}");
+        Console.WriteLine($"That is {hi}");
     }
 }
