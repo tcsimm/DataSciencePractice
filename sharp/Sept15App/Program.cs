@@ -6,16 +6,8 @@ class Program
 {
     static void Main()
     {
-        int n = 5;
+        int i = 5;
 
-        if (n >= 5)
-        {
-            Console.WriteLine("n > 5");
-        }
-
-        else
-        {
-            Console.WriteLine("nah");
-        }
+        for (int i = 0; i < 5; i++) Console.WriteLine(i);
     }    
 }
