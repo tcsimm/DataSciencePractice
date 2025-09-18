@@ -11,5 +11,8 @@ class Program
 
         String bob = "bob";
         Console.WriteLine($"Your name is {bob}");
+
+        bool hi = true;
+        Console.WriteLine($"That is {bhiob}");
     }
 }
