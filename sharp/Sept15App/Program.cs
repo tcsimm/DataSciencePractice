@@ -8,7 +8,7 @@ class Program
     {
         int n = 5;
 
-        if (n > 5)
+        if (n >= 5)
         {
             Console.WriteLine("n > 5");
         }
