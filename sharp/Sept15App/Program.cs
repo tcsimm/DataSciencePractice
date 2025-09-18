@@ -14,5 +14,8 @@ class Program
 
         bool hi = true;
         Console.WriteLine($"That is {hi}");
+
+        float pi = 3.14;
+        Console.WriteLine($"Pi is {pi}");
     }
 }
