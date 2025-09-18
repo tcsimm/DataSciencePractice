@@ -7,6 +7,6 @@ class Program
         Console.WriteLine("Hello");
 
         int thomas = 45;
-        
+        Console.WriteLine($"Your age is {thomas}");
     }
 }
