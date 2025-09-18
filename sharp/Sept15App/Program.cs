@@ -6,6 +6,6 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Come in world");
+        int n = 7;
     }
 }
