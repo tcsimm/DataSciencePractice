@@ -10,6 +10,6 @@ class Program
         Console.WriteLine($"Your age is {thomas}");
 
         String bob = "bob";
-        Console.WriteLine($"Your name is {String}");
+        Console.WriteLine($"Your name is {bob}");
     }
 }
