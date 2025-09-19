@@ -1,15 +1,11 @@
 ﻿using System;
 
-namespace Playground;
-
-class Program
+namespace Playground
 {
+
+
     static void Main()
     {
-        static int Add(int a, int b)
-        {
-            return a + b;
-        }
-        Console.WriteLine(Add(3,5));
-    }    
+        Console.WriteLine("Hi.");
+    }
 }
